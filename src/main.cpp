@@ -1,5 +1,6 @@
 #include<iostream>
 #include<random>
+#include<algorithm>
 #include<omp.h>
 
 int main(int argc, char *argv[]) {
