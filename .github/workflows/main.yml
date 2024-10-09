@@ -29,17 +29,17 @@ jobs:
         run: |
           cd build
           export OMP_NUM_THREADS=1
-          ./mergesort
+          ./selectsort
 
       - name: Run the code on three threads
         run: |
           cd build
           export OMP_NUM_THREADS=3
-          ./mergesort
+          ./selectsort
 
       - name: Run the code on four threads
         run: |
           cd build
           export OMP_NUM_THREADS=4
-          ./mergesort
+          ./selectsort
 
